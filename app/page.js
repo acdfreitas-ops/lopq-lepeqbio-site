@@ -308,7 +308,7 @@ export default function Home() {
 </div>
 
 <div className="labBrand lopq">
-  <img src="/images/lopq.png" alt="LOPQ - Laboratório de Otimização de Processos Químicos" />
+  <img src="/images/LOPQ.png" alt="LOPQ - Laboratório de Otimização de Processos Químicos" />
 </div>
 
 <div className="labBrand lepeq">
@@ -349,7 +349,7 @@ export default function Home() {
 
       <div className="labLogo">
         <img
-          src="/images/lopq.png"
+          src="/images/LOPQ.png"
           alt="LOPQ - Laboratório de Otimização de Processos Químicos"
         />
       </div>
