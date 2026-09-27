@@ -1,0 +1,1547 @@
+:root{--navy:#06294a;--blue:#0d4d7f;--green:#27a65a;--light:#f4f8fb;--text:#19334d;--muted:#5d7080}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--text);background:white}a{text-decoration:none;color:inherit}.header{position:sticky;top:0;z-index:20;background:#fff;box-shadow:0 2px 14px #082c4515;display:grid;grid-template-columns:1.1fr 1fr 1.5fr;align-items:center;padding:12px 5%;gap:20px}.brand,.labBrand{display:flex;align-items:center;gap:10px}.brand strong{font-size:23px;color:var(--navy)}.brand span,.labBrand span{display:block;font-size:10px;color:var(--muted)}.ufmaMark{width:48px;height:48px;border:2px solid #bbb;border-radius:50%;display:grid;place-items:center;font-size:10px;font-weight:bold}.labBrand b{font-size:32px;color:var(--green)}.labBrand strong{font-size:23px;color:var(--blue)}.lepeq strong{color:#38795f}.header nav{grid-column:1/-1;display:flex;gap:25px;border-top:1px solid #edf0f2;padding-top:10px;font-size:12px;font-weight:bold;text-transform:uppercase;justify-content:center}.hero{position:relative;min-height:530px;background:linear-gradient(100deg,#06294a 5%,#0d4d7f 55%,#163e48);overflow:hidden}.hero:after{content:'BIOMASS  ·  H₂  ·  CO₂  ·  AI';position:absolute;right:5%;top:32%;font-size:40px;font-weight:bold;color:#ffffff18;letter-spacing:5px;transform:rotate(-8deg)}.heroOverlay{position:absolute;inset:0;background:radial-gradient(circle at 75% 45%,#27a65a55,transparent 28%),linear-gradient(90deg,#06294aee 0%,#06294acc 55%,transparent)}.heroContent{position:relative;z-index:2;max-width:760px;padding:100px 8%;color:#fff}.eyebrow{font-size:12px;font-weight:bold;letter-spacing:1.8px;color:var(--green);margin:0 0 10px}.hero h1{font-size:48px;line-height:1.08;margin:10px 0 20px}.hero h1 em{font-style:normal;color:#5ee28a}.hero p:not(.eyebrow){font-size:18px;line-height:1.6;color:#e7f0f5;max-width:680px}.actions{display:flex;gap:12px;margin-top:30px}.btn{padding:14px 20px;border-radius:8px;font-weight:bold}.primary{background:#5be082;color:#06294a}.ghost{border:1px solid #fff;color:#fff}.section{padding:60px 5%;max-width:1400px;margin:auto}.labs{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:-30px;position:relative;z-index:5}.labCard{background:white;border-radius:12px;padding:28px;display:flex;align-items:center;gap:18px;box-shadow:0 8px 30px #082c4517;border:1px solid #e6edf2}.labIcon{font-size:44px}.labCard h2{font-size:28px;margin:0}.labCard h3{font-size:14px;margin:3px 0 12px}.labCard p{color:var(--muted);line-height:1.5;margin:0;font-size:14px}.lopqCard .labIcon{color:var(--blue)}.lepeqCard .labIcon{color:var(--green)}.arrow{margin-left:auto;font-size:28px;color:var(--green)}.sectionHead h2,.section h2{font-size:32px;margin:0 0 20px;color:var(--navy)}.sectionHead.row{display:flex;justify-content:space-between;align-items:end}.sectionHead.row>a{color:var(--blue);font-weight:bold}.researchGrid{display:grid;grid-template-columns:repeat(6,1fr);gap:15px}.researchCard{text-align:center;padding:15px}.roundIcon{width:72px;height:72px;border-radius:50%;background:#edf7f0;display:grid;place-items:center;font-size:30px;margin:0 auto 15px}.researchCard h3{font-size:15px;margin:8px}.researchCard p{font-size:13px;color:var(--muted);line-height:1.4}.stats{background:#edf7f0;display:grid;grid-template-columns:repeat(4,1fr);padding:34px 10%;text-align:center}.stats strong{display:block;font-size:30px;color:var(--navy)}.stats span{color:var(--muted);font-size:13px}.projectGrid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.projectCard{border:1px solid #e2e9ee;border-radius:10px;overflow:hidden;background:#fff}.projectImage{height:130px;background:linear-gradient(135deg,#143e5f,#2e8c58);display:grid;place-items:center;color:#fff;font-size:36px;font-weight:bold}.p2{background:linear-gradient(135deg,#1e5c4c,#71b858)}.p3{background:linear-gradient(135deg,#12345d,#3474b8)}.p4{background:linear-gradient(135deg,#444,#8b9b9e)}.projectBody{padding:17px}.projectBody h3{font-size:16px;line-height:1.3;margin:0 0 12px}.projectBody p{font-size:12px;color:var(--muted)}.split{display:grid;grid-template-columns:1.4fr .9fr;gap:50px;background:var(--light);max-width:none;padding-left:7%;padding-right:7%}.softwareGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.softwareGrid article{background:#fff;border:1px solid #e1e8ed;border-radius:9px;padding:20px}.softwareGrid b{display:block;font-size:20px;color:var(--navy)}.softwareGrid span{font-size:12px;color:var(--green);font-weight:bold}.softwareGrid p{font-size:13px;color:var(--muted);line-height:1.5}.softwareGrid small{background:#edf4fa;padding:6px 8px;border-radius:5px;font-size:10px}.pub{padding:16px 0;border-bottom:1px solid #dbe4e9}.pub b{display:block;font-size:14px;line-height:1.4}.pub span{font-size:12px;color:var(--muted)}.teamGrid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.person{display:flex;gap:18px;padding:22px;border:1px solid #e1e8ed;border-radius:10px}.avatar{flex:none;width:76px;height:76px;border-radius:50%;display:grid;place-items:center;background:#e8f3ec;color:var(--green);font-weight:bold;font-size:22px}.person h3{margin:0 0 5px;font-size:18px}.person strong,.person span{display:block;font-size:12px}.person span{color:var(--green);font-weight:bold;margin-top:3px}.person p{font-size:13px;color:var(--muted);line-height:1.4}.person a{font-size:12px;color:var(--blue);font-weight:bold}footer{background:#06294a;color:#d9e6ee;padding:45px 7%;display:grid;grid-template-columns:2fr 1fr 1fr;gap:50px;font-size:13px;line-height:1.6}.footerBrand{font-size:24px;font-weight:bold;color:#fff}.footerBrand span{color:#5be082}footer b{color:#fff}footer p{color:#aebfca}@media(max-width:1000px){.header{grid-template-columns:1fr 1fr}.header .lepeq{display:none}.researchGrid{grid-template-columns:repeat(3,1fr)}.projectGrid{grid-template-columns:repeat(2,1fr)}.split{grid-template-columns:1fr}.softwareGrid{grid-template-columns:1fr 1fr}}@media(max-width:700px){.header{position:relative;grid-template-columns:1fr}.header .labBrand{display:none}.header nav{overflow:auto;justify-content:flex-start;white-space:nowrap}.heroContent{padding:70px 7%}.hero h1{font-size:35px}.labs,.teamGrid,.projectGrid,.softwareGrid{grid-template-columns:1fr}.researchGrid{grid-template-columns:repeat(2,1fr)}.stats{grid-template-columns:1fr 1fr;gap:25px}.actions{flex-direction:column}footer{grid-template-columns:1fr}}/* Logos oficiais */
+/* Logos oficiais */
+.header .brand img {
+  width: 280px;
+  height: 82px;
+  object-fit: contain;
+  object-position: left center;
+}
+
+.header .labBrand img {
+  width: 340px;
+  height: 82px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.header .labBrand.lepeq img {
+  width: 380px;
+  height: 82px;
+}
+
+.header .labBrand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header .brand {
+  display: flex;
+  align-items: center;
+}
+
+/* aumenta a altura do cabeçalho para acomodar os logos */
+.header {
+  min-height: 145px;
+}
+/* =====================================================
+   CORREÇÃO DO LAYOUT DOS LABORATÓRIOS
+   ===================================================== */
+
+.labs {
+  display: block !important;
+  width: 100%;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.labs .sectionHead {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto 50px;
+  text-align: center;
+}
+
+.labs .sectionHead h2 {
+  font-size: 42px;
+  line-height: 1.15;
+  margin: 10px auto 18px;
+}
+
+.labs .sectionHead > p:last-child {
+  max-width: 720px;
+  margin: 0 auto;
+  line-height: 1.6;
+  color: #5b6d78;
+}
+
+.labsGrid {
+  width: 100%;
+  max-width: 1250px;
+  margin: 0 auto;
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: 30px;
+}
+
+.labsGrid .labCard {
+  display: block !important;
+  width: auto !important;
+  min-width: 0;
+  min-height: 500px;
+  padding: 40px !important;
+  border-radius: 22px;
+  box-sizing: border-box;
+}
+
+.labsGrid .labLogo {
+  height: 95px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.labsGrid .labLogo img {
+  max-width: 250px;
+  max-height: 80px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+.labsGrid .labCard h2 {
+  margin: 5px 0 8px;
+  font-size: 34px;
+}
+
+.labsGrid .labCard h3 {
+  max-width: 500px;
+  margin-bottom: 18px;
+  line-height: 1.35;
+}
+
+.labsGrid .labCard p {
+  max-width: 560px;
+  line-height: 1.65;
+}
+
+.labsGrid .labTags {
+  max-width: 560px;
+  margin-top: 25px;
+}
+
+.labsGrid .labLink {
+  margin-top: 12px;
+}
+
+/* Tablet */
+@media (max-width: 1000px) {
+  .labsGrid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .labs .sectionHead {
+    text-align: left;
+    margin-left: 0;
+  }
+
+  .labs .sectionHead > p:last-child {
+    margin-left: 0;
+  }
+}
+
+/* Celular */
+@media (max-width: 600px) {
+  .labs {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .labs .sectionHead h2 {
+    font-size: 32px;
+  }
+
+  .labsGrid .labCard {
+    padding: 28px !important;
+  }
+}
+/* =====================================================
+   AJUSTE FINAL — CARDS DOS LABORATÓRIOS
+   ===================================================== */
+
+.labsGrid .labCard {
+  min-height: 440px;
+  padding: 34px 40px !important;
+}
+
+.labsGrid .labLogo {
+  height: 75px;
+  margin-bottom: 18px;
+}
+
+.labsGrid .labLogo img {
+  max-width: 280px;
+  max-height: 75px;
+  transform: scale(1.25);
+  transform-origin: left center;
+}
+
+/* Tags dos laboratórios */
+.labsGrid .labTags {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: center;
+  gap: 10px !important;
+  margin: 22px 0 !important;
+}
+
+.labsGrid .labTags span {
+  display: inline-flex !important;
+  align-items: center;
+  white-space: nowrap;
+  padding: 7px 13px !important;
+  margin: 0 !important;
+  border-radius: 999px;
+  background: #eef4f2;
+  color: #24495b;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* Link separado das tags */
+.labsGrid .labLink {
+  display: inline-block !important;
+  margin-top: 4px !important;
+  padding-top: 4px;
+}
+
+/* Melhor aproveitamento vertical */
+.labsGrid .labCard p {
+  margin-bottom: 0;
+}
+/* =====================================================
+   ÁREAS E PROJETOS DE PESQUISA
+   ===================================================== */
+
+.researchSection {
+  background: #ffffff;
+}
+
+.researchHeader {
+  max-width: 850px;
+  margin: 0 auto 55px;
+  text-align: center;
+}
+
+.researchHeader h2 {
+  max-width: 900px;
+  margin: 10px auto 18px;
+  font-size: 42px;
+  line-height: 1.15;
+}
+
+.researchHeader > p:last-child {
+  max-width: 760px;
+  margin: 0 auto;
+  line-height: 1.7;
+  color: #5d707c;
+}
+
+.researchGrid {
+  max-width: 1250px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.researchCard {
+  position: relative;
+  min-height: 340px;
+  padding: 30px;
+  background: #f8faf9;
+  border: 1px solid #e2eae7;
+  border-radius: 18px;
+  overflow: hidden;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.researchCard:hover {
+  transform: translateY(-5px);
+  border-color: #b8d9ca;
+  box-shadow: 0 16px 35px rgba(10, 45, 70, 0.10);
+}
+
+.researchNumber {
+  position: absolute;
+  right: 24px;
+  top: 18px;
+  font-size: 42px;
+  font-weight: 800;
+  color: rgba(9, 55, 82, 0.055);
+}
+
+.researchIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 62px;
+  height: 42px;
+  padding: 0 12px;
+  margin-bottom: 28px;
+  border-radius: 9px;
+  background: #0c3d61;
+  color: white;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+}
+
+.researchCard:nth-child(even) .researchIcon {
+  background: #2ca65a;
+}
+
+.researchCard h3 {
+  max-width: 340px;
+  margin: 0 0 14px;
+  font-size: 23px;
+  line-height: 1.25;
+  color: #0a3153;
+}
+
+.researchCard p {
+  margin: 0;
+  color: #5c707c;
+  line-height: 1.65;
+  font-size: 15px;
+}
+
+.researchTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top: 22px;
+}
+
+.researchTags span {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: #e9f1ee;
+  color: #315665;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.researchLink {
+  display: inline-block;
+  margin-top: 22px;
+  color: #0b456a;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.researchCardFeatured {
+  background: linear-gradient(
+    135deg,
+    #f2faf5 0%,
+    #f8fbfa 100%
+  );
+  border-color: #c7e6d3;
+}
+
+/* Tablet */
+@media (max-width: 1000px) {
+  .researchGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .researchHeader {
+    text-align: left;
+    margin-left: 0;
+  }
+
+  .researchHeader > p:last-child {
+    margin-left: 0;
+  }
+}
+
+/* Celular */
+@media (max-width: 650px) {
+  .researchGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .researchHeader h2 {
+    font-size: 32px;
+  }
+
+  .researchCard {
+    min-height: auto;
+  }
+}
+/* =========================================================
+   PROJETOS DE PESQUISA
+   ========================================================= */
+
+.projectsSection {
+  background: #ffffff;
+}
+
+.projectsHeader {
+  max-width: 900px;
+  margin: 0 auto 70px;
+  text-align: center;
+}
+
+.projectsHeader h2 {
+  margin-bottom: 20px;
+}
+
+.projectsHeader > p:last-child {
+  max-width: 760px;
+  margin: 0 auto;
+  color: #60758a;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+
+/* BLOCO DO PESQUISADOR */
+
+.researcherProjects {
+  margin-bottom: 80px;
+}
+
+.researcherProjectsHeader {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 28px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e3ebed;
+}
+
+.researcherAvatar {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background: #0b3558;
+  color: #ffffff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: 800;
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+.researcherProjectsHeader .eyebrow {
+  margin: 0 0 4px;
+  font-size: 12px;
+}
+
+.researcherProjectsHeader h3 {
+  margin: 0;
+  color: #0b3558;
+  font-size: 25px;
+}
+
+.researcherProjectsHeader span {
+  display: block;
+  margin-top: 5px;
+  color: #60758a;
+  font-size: 14px;
+}
+
+.projectCount {
+  margin-left: auto;
+  text-align: right;
+}
+
+.projectCount strong {
+  display: block;
+  color: #0b3558;
+  font-size: 32px;
+  line-height: 1;
+}
+
+.projectCount span {
+  color: #60758a;
+  font-size: 13px;
+}
+
+
+/* GRID DOS PROJETOS */
+
+.projectsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+
+/* CARD */
+
+.researchProjectCard {
+  position: relative;
+
+  padding: 28px;
+
+  background: #ffffff;
+
+  border: 1px solid #dfe8e8;
+  border-radius: 18px;
+
+  min-height: 310px;
+
+  display: flex;
+  flex-direction: column;
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.researchProjectCard:hover {
+  transform: translateY(-5px);
+
+  border-color: #35b56a;
+
+  box-shadow:
+    0 16px 40px rgba(10, 45, 70, 0.10);
+}
+
+
+/* CÓDIGO E ANO */
+
+.projectTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 20px;
+}
+
+.projectCode {
+  color: #1fa45b;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+
+.projectYear {
+  color: #8a9aa8;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+
+/* TÍTULO */
+
+.researchProjectCard h4 {
+  margin: 0 0 18px;
+
+  color: #0b3558;
+
+  font-size: 18px;
+  line-height: 1.35;
+
+  font-weight: 800;
+}
+
+
+/* ÁREA */
+
+.projectArea {
+  color: #60758a;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  line-height: 1.5;
+
+  margin-bottom: 20px;
+}
+
+
+/* TAGS */
+
+.projectTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+
+  margin-top: auto;
+  margin-bottom: 22px;
+}
+
+.projectTags span {
+  padding: 7px 11px;
+
+  border-radius: 30px;
+
+  background: #edf5f2;
+
+  color: #28596a;
+
+  font-size: 12px;
+  font-weight: 700;
+}
+
+
+/* LINK */
+
+.projectLink {
+  display: inline-flex;
+  align-items: center;
+
+  color: #0b4d78;
+
+  font-size: 14px;
+  font-weight: 800;
+
+  text-decoration: none;
+
+  transition: color 0.2s ease;
+}
+
+.projectLink:hover {
+  color: #1fa45b;
+}
+
+
+/* =========================================================
+   RESPONSIVIDADE
+   ========================================================= */
+
+@media (max-width: 1100px) {
+
+  .projectsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+
+@media (max-width: 700px) {
+
+  .projectsHeader {
+    margin-bottom: 45px;
+  }
+
+  .researcherProjectsHeader {
+    align-items: flex-start;
+  }
+
+  .projectCount {
+    display: none;
+  }
+
+  .projectsGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .researchProjectCard {
+    min-height: auto;
+  }
+
+}
+/* =========================================================
+   PUBLICAÇÕES - ESTRUTURA SIMPLIFICADA
+   ========================================================= */
+
+.publicationsIntro {
+  max-width: 760px;
+  margin-bottom: 36px;
+  color: #60706c;
+}
+
+.publicationsList {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.publicationItem {
+  background: #ffffff;
+  border: 1px solid #e2e9e7;
+  border-radius: 16px;
+  padding: 24px 28px;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.publicationItem:hover {
+  transform: translateY(-2px);
+  border-color: #b8d2ca;
+  box-shadow: 0 10px 25px rgba(20, 60, 50, 0.08);
+}
+
+.publicationItem h3 {
+  margin: 0 0 16px 0;
+  color: #102f4d;
+  font-size: 1.05rem;
+  line-height: 1.5;
+  font-weight: 650;
+}
+
+.publicationDoi {
+  display: inline-block;
+  color: #169c5b;
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.publicationDoi:hover {
+  text-decoration: underline;
+}
+
+
+/* =========================================================
+   RESPONSIVO
+   ========================================================= */
+
+@media (max-width: 700px) {
+
+  .publicationItem {
+    padding: 20px;
+  }
+
+  .publicationItem h3 {
+    font-size: 0.98rem;
+  }
+
+  .publicationDoi {
+    font-size: 0.82rem;
+    word-break: break-word;
+  }
+
+}
+/* =========================================================
+   AJUSTE FINAL — SOFTWARE & DADOS
+   ========================================================= */
+
+.softwareGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+  gap: 24px;
+}
+
+.softwareCard {
+  width: 100%;
+  min-height: 300px;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  padding: 30px;
+}
+
+.softwareCard .softwareIcon {
+  margin-bottom: 18px;
+}
+
+.softwareCard b {
+  display: block;
+  font-size: 1.45rem;
+  line-height: 1.2;
+  margin-bottom: 8px;
+}
+
+.softwareCard span {
+  display: block;
+  margin-bottom: 18px;
+}
+
+.softwareCard p {
+  max-width: 100%;
+  line-height: 1.65;
+  margin-bottom: 18px;
+}
+
+.softwareCard small {
+  display: block;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.softwareLink {
+  display: inline-block;
+  width: fit-content;
+  margin-top: auto;
+}
+
+
+/* =========================================================
+   PUBLICAÇÕES
+   ========================================================= */
+
+.publicationsList {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 18px;
+  width: 100%;
+}
+
+.publicationItem {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+/* =========================================================
+   RESPONSIVIDADE
+   ========================================================= */
+
+@media (max-width: 900px) {
+
+  .section.split {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .softwareGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .softwareCard {
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .softwareCard {
+    padding: 22px;
+    min-height: auto;
+  }
+
+  .softwareCard b {
+    font-size: 1.25rem;
+  }
+
+  .softwareCard p {
+    font-size: 0.95rem;
+  }
+
+}
+/* =========================================================
+   SOFTWARE & DADOS + PUBLICAÇÕES
+   PUBLICAÇÕES MAIOR QUE SOFTWARE
+   ========================================================= */
+
+.section.split {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: 50px;
+  align-items: start;
+}
+
+.section.split > div {
+  min-width: 0;
+}
+
+
+/* SOFTWARE */
+
+.softwareGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+  gap: 24px;
+}
+
+.softwareCard {
+  width: 100%;
+  min-height: 300px;
+  box-sizing: border-box;
+  padding: 30px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.softwareCard .softwareIcon {
+  margin-bottom: 18px;
+}
+
+.softwareCard b {
+  display: block;
+  font-size: 1.45rem;
+  line-height: 1.2;
+  margin-bottom: 8px;
+}
+
+.softwareCard span {
+  display: block;
+  margin-bottom: 18px;
+}
+
+.softwareCard p {
+  max-width: 100%;
+  line-height: 1.65;
+  margin-bottom: 18px;
+}
+
+.softwareCard small {
+  display: block;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.softwareLink {
+  display: inline-block;
+  width: fit-content;
+  margin-top: auto;
+}
+
+
+/* PUBLICAÇÕES */
+
+.publicationsList {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 18px;
+  width: 100%;
+}
+
+.publicationItem {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+/* RESPONSIVO */
+
+@media (max-width: 900px) {
+
+  .section.split {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .softwareGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .softwareCard {
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .softwareCard {
+    padding: 22px;
+    min-height: auto;
+  }
+
+  .softwareCard b {
+    font-size: 1.25rem;
+  }
+
+  .softwareCard p {
+    font-size: 0.95rem;
+  }
+
+}
+/* =========================================================
+   PESQUISADORES
+   ========================================================= */
+
+.team {
+  padding-top: 90px;
+  padding-bottom: 100px;
+}
+
+.teamHeader {
+  max-width: 760px;
+  margin-bottom: 46px;
+}
+
+.teamHeader h2 {
+  margin-bottom: 16px;
+}
+
+.teamHeader > p:last-child {
+  max-width: 700px;
+  line-height: 1.7;
+}
+
+
+/* GRID DOS PESQUISADORES */
+
+.researchersGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px;
+}
+
+
+/* CARD */
+
+.researcherCard {
+  position: relative;
+  width: 100%;
+  min-height: 310px;
+  box-sizing: border-box;
+
+  padding: 32px;
+
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 22px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+
+  background: #ffffff;
+
+  box-shadow:
+    0 12px 35px rgba(0, 0, 0, 0.06);
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.researcherCard:hover {
+  transform: translateY(-5px);
+
+  box-shadow:
+    0 18px 45px rgba(0, 0, 0, 0.10);
+
+  border-color: rgba(0, 0, 0, 0.14);
+}
+
+
+/* PARTE SUPERIOR */
+
+.researcherCardTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 28px;
+}
+
+
+/* AVATAR */
+
+.researcherAvatar {
+  width: 76px;
+  height: 76px;
+
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
+
+  font-size: 1.25rem;
+  font-weight: 700;
+
+  background: #f0f4f1;
+  color: #1f5c45;
+
+  border: 1px solid rgba(31, 92, 69, 0.15);
+}
+
+
+/* LABORATÓRIO */
+
+.researcherLab {
+  padding: 8px 14px;
+
+  border-radius: 999px;
+
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+
+  background: #f5f6f7;
+  color: #4b5563;
+
+  text-align: center;
+}
+
+
+/* INFORMAÇÕES */
+
+.researcherInfo {
+  flex: 1;
+}
+
+.researcherInfo h3 {
+  margin: 0 0 10px;
+
+  font-size: 1.35rem;
+  line-height: 1.3;
+}
+
+.researcherInfo strong {
+  display: block;
+
+  margin-bottom: 16px;
+
+  font-size: 0.92rem;
+  font-weight: 600;
+
+  color: #1f5c45;
+}
+
+.researcherInfo p {
+  margin: 0;
+
+  font-size: 0.95rem;
+  line-height: 1.65;
+
+  color: #5b6470;
+}
+
+
+/* AÇÕES */
+
+.researcherActions {
+  margin-top: 28px;
+
+  padding-top: 20px;
+
+  border-top: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+.researcherLink {
+  display: inline-flex;
+  align-items: center;
+
+  font-size: 0.9rem;
+  font-weight: 700;
+
+  color: #1f5c45;
+
+  text-decoration: none;
+
+  transition: gap 0.2s ease;
+}
+
+.researcherLink:hover {
+  text-decoration: underline;
+}
+
+
+/* =========================================================
+   RESPONSIVIDADE
+   ========================================================= */
+
+@media (max-width: 900px) {
+
+  .researchersGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .researcherCard {
+    min-height: auto;
+  }
+
+}
+
+
+@media (max-width: 600px) {
+
+  .team {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .researcherCard {
+    padding: 24px;
+    border-radius: 18px;
+  }
+
+  .researcherAvatar {
+    width: 64px;
+    height: 64px;
+  }
+
+  .researcherInfo h3 {
+    font-size: 1.2rem;
+  }
+
+  .researcherLab {
+    font-size: 0.68rem;
+    padding: 7px 10px;
+  }
+
+}
+/* =========================================================
+   RODAPÉ INSTITUCIONAL
+   ========================================================= */
+
+#contato {
+  margin-top: 80px;
+  padding: 70px 7% 25px;
+
+  background: #111b17;
+  color: #ffffff;
+}
+
+
+/* CONTEÚDO PRINCIPAL */
+
+.footerMain {
+  max-width: 1400px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 1.6fr 0.8fr 1.2fr;
+  gap: 70px;
+}
+
+
+/* MARCA */
+
+.footerBrand {
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  margin-bottom: 18px;
+}
+
+.footerBrand span {
+  margin: 0 6px;
+  opacity: 0.6;
+}
+
+.footerAbout p {
+  max-width: 560px;
+
+  margin: 0 0 12px;
+
+  color: rgba(255,255,255,0.68);
+
+  line-height: 1.7;
+}
+
+.footerAbout .footerInstitution {
+  font-size: 1rem;
+  color: rgba(255,255,255,0.85);
+}
+
+
+/* MENSAGEM DE INOVAÇÃO */
+
+.footerInnovation {
+  margin-top: 28px !important;
+  padding-left: 18px;
+
+  border-left: 2px solid rgba(255,255,255,0.3);
+}
+
+.footerInnovation strong {
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+
+/* COLUNAS */
+
+.footerLinks,
+.footerLattes {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footerLinks b,
+.footerLattes b {
+  margin-bottom: 8px;
+
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+
+/* LINKS */
+
+.footerLinks a,
+.footerLattes a {
+  color: rgba(255,255,255,0.68);
+  text-decoration: none;
+
+  font-size: 0.9rem;
+  line-height: 1.5;
+
+  transition:
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.footerLinks a:hover,
+.footerLattes a:hover {
+  color: #ffffff;
+  transform: translateX(3px);
+}
+
+
+/* LINHA FINAL */
+
+.footerBottom {
+  max-width: 1400px;
+  margin: 55px auto 0;
+  padding-top: 22px;
+
+  border-top: 1px solid rgba(255,255,255,0.12);
+
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+
+  color: rgba(255,255,255,0.45);
+
+  font-size: 0.78rem;
+}
+
+
+/* RESPONSIVO */
+
+@media (max-width: 900px) {
+
+  #contato {
+    padding: 60px 6% 25px;
+  }
+
+  .footerMain {
+    grid-template-columns: 1fr 1fr;
+    gap: 45px;
+  }
+
+  .footerAbout {
+    grid-column: 1 / -1;
+  }
+
+}
+
+
+@media (max-width: 600px) {
+
+  .footerMain {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  .footerBottom {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+}
+/* =========================================================
+   CORREÇÃO FINAL DO RODAPÉ
+   ========================================================= */
+
+#contato {
+  display: block !important;
+  width: 100%;
+  box-sizing: border-box;
+
+  margin-top: 80px;
+  padding: 70px 6% 25px;
+
+  background: #111b17;
+  color: #ffffff;
+}
+
+
+/* ÁREA PRINCIPAL DO RODAPÉ */
+
+#contato .footerMain {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+
+  display: grid !important;
+  grid-template-columns: 1.5fr 0.8fr 1.2fr;
+  gap: 70px;
+
+  align-items: start;
+}
+
+
+/* COLUNA INSTITUCIONAL */
+
+#contato .footerAbout {
+  min-width: 0;
+}
+
+#contato .footerBrand {
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 1.3;
+
+  margin-bottom: 20px;
+}
+
+#contato .footerBrand span {
+  color: #2f8f68;
+  margin: 0 5px;
+}
+
+#contato .footerAbout p {
+  max-width: 520px;
+
+  margin: 0 0 14px;
+
+  color: rgba(255,255,255,0.70);
+
+  line-height: 1.7;
+}
+
+#contato .footerAbout .footerInstitution {
+  color: rgba(255,255,255,0.88);
+}
+
+
+/* MENSAGEM DE INOVAÇÃO */
+
+#contato .footerInnovation {
+  margin-top: 30px !important;
+  padding-left: 20px;
+
+  border-left: 2px solid rgba(255,255,255,0.28);
+}
+
+#contato .footerInnovation strong {
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+
+/* LINKS */
+
+#contato .footerLinks,
+#contato .footerLattes {
+  min-width: 0;
+
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+#contato .footerLinks b,
+#contato .footerLattes b {
+  display: block;
+
+  margin-bottom: 10px;
+
+  color: #ffffff;
+
+  font-size: 0.88rem;
+  font-weight: 800;
+
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+
+/* LINKS CLICÁVEIS */
+
+#contato .footerLinks a,
+#contato .footerLattes a {
+  color: rgba(255,255,255,0.68);
+
+  font-size: 0.9rem;
+  line-height: 1.5;
+
+  text-decoration: none;
+
+  transition:
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+#contato .footerLinks a:hover,
+#contato .footerLattes a:hover {
+  color: #ffffff;
+  transform: translateX(3px);
+}
+
+
+/* =========================================================
+   LINHA INFERIOR
+   ========================================================= */
+
+#contato .footerBottom {
+  width: 100%;
+  max-width: 1400px;
+
+  margin: 55px auto 0;
+  padding-top: 22px;
+
+  border-top: 1px solid rgba(255,255,255,0.12);
+
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 30px;
+
+  box-sizing: border-box;
+
+  color: rgba(255,255,255,0.45);
+
+  font-size: 0.78rem;
+}
+
+
+/* =========================================================
+   RESPONSIVIDADE
+   ========================================================= */
+
+@media (max-width: 900px) {
+
+  #contato {
+    padding: 60px 6% 25px;
+  }
+
+  #contato .footerMain {
+    grid-template-columns: 1fr 1fr;
+    gap: 45px;
+  }
+
+  #contato .footerAbout {
+    grid-column: 1 / -1;
+  }
+
+}
+
+
+@media (max-width: 600px) {
+
+  #contato .footerMain {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  #contato .footerAbout {
+    grid-column: auto;
+  }
+
+  #contato .footerBottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+}
